@@ -1,13 +1,21 @@
 {
-  "name": "postcss-color-replace",
-  "version": "1.0.0",
-  "description": "replace project color",
-  "main": "index.js",
-  "keywords": [
-      "postcss",
-      "color",
-      "postcss-color-replace"
-  ],
-  "author": "",
-  "license": "ISC"
+    "name": "postcss-color-replace",
+    "version": "1.0.0",
+    "description": "replace project color",
+    "main": "index.js",
+    "author": {
+        "name": "zrrz",
+        "email": "247076126@qq.com"
+    },
+    "keywords": [
+        "postcss",
+        "color",
+        "postcss-color-replace"
+    ],
+    "license": "ISC",
+    "homepage": "https://github.com/so11y/postcss-color-replace",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/so11y/postcss-color-replace.git"
+    }
 }
