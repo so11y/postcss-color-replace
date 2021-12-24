@@ -1,6 +1,6 @@
 {
     "name": "postcss-color-replace",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "replace project color",
     "main": "index.js",
     "author": {
