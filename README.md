@@ -25,6 +25,18 @@ npm i postcss-color-replace
 yarn add postcss-color-replace
 ```
 
+### 跳过替换
+
+1. 需要跳过的替换在上一级可以添加注释skip，将会跳过替换
+
+``` css
+.text{
+    /* skip */
+    color:#00000;
+}
+
+```
+
 
 ### 示例
 

@@ -51,6 +51,10 @@ module.exports = postcss.plugin('postcss-color-replace', (opts = {}) => {
 
     return (root) => {
         root.walkDecls((decl) => {
+            const prevDecl = decl.prev();
+            if(prevDecl && prevDecl.type === "comment" && prevDecl.text === "skip"){
+                return
+            }
             if (originalCluster.some(v => new RegExp(v, 'i').test(decl.value))) {
                 decl.value = updateStyle(decl.value, originalCluster, themeCluster)
             }
