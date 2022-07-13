@@ -48,7 +48,7 @@ postcss: {
     plugins: [
         require('postcss-color-replace')({
             newColor: ['#00ca65', '#00ca65'],
-            ordColor: ['#409EFF', '#3a8ee6']
+            oldColor: ['#409EFF', '#3a8ee6']
         })
     ]
 }
@@ -61,7 +61,7 @@ module.exports = {
   plugins: [
     require("postcss-color-replace")({
       newColor: process.env.VUE_APP_NEWCOLOR, //需要parse为Array不能是string
-      ordColor: process.env.VUE_APP_ORDCOLOR
+      ordColor: process.env.VUE_APP_OLDCOLOR
     })
   ]
 };
